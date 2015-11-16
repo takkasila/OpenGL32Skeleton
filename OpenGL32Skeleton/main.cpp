@@ -28,9 +28,8 @@ void SendUniformMVP();
 
 int main()
 {
-	int programStatus = InitProgram();
-	if (programStatus != 0)
-		return programStatus;
+	if (InitProgram() != 0)
+		return -1;
 
 	ShaderGenerator shaderProgram;
 	shaderProgram.AddShader("v_simple.glsl", GL_VERTEX_SHADER);

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="f_input_color.glsl">
+      <Filter>Shader\Simple</Filter>
+    </None>
+    <None Include="v_simple.glsl">
+      <Filter>Shader\Simple</Filter>
+    </None>
+    <None Include="g_normals_visualize.glsl">
+      <Filter>Shader\Utility</Filter>
+    </None>
+    <None Include="v_normals_visualize.glsl">
+      <Filter>Shader\Utility</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c2c987da-31b1-48b9-96a6-f370fdc2d68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{18f2c134-6620-47a3-b553-6ef25147c1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8d3180d1-9368-4693-9156-3b4d4d7e3ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{160e9f63-a2c6-4b99-87a2-f75cc35fb5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Simple">
+      <UniqueIdentifier>{c2726845-15fc-43cd-98f3-2c8d8e823312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Utility">
+      <UniqueIdentifier>{649b18cd-abe8-493f-93c2-2de7279a9813}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

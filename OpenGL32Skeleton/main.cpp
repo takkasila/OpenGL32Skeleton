@@ -23,8 +23,6 @@ GLFWwindow* window;
 float window_width = 1200;
 float window_height = 900;
 
-GLuint shaderGuy();
-
 int InitProgram();
 void SendUniformMVP();
 

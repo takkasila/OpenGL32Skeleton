@@ -14,6 +14,7 @@
     <ProjectGuid>{B853E4C4-A4D7-4439-8229-5929240577CB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>OpenGL32Skeleton</RootNamespace>
+    <ProjectName>OceanSimulation</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -83,14 +84,19 @@
     <ClCompile Include="Controls.cpp" />
     <ClCompile Include="LoadShader.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Object.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Controls.h" />
     <ClInclude Include="LoadShader.h" />
+    <ClInclude Include="RenderObject.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="scene_f_shader.glsl" />
-    <None Include="scene_v_shader.glsl" />
+    <None Include="g_normals_visualize.glsl" />
+    <None Include="f_input_color.glsl" />
+    <None Include="g_house.glsl" />
+    <None Include="v_normals_visualize.glsl" />
+    <None Include="v_simple.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

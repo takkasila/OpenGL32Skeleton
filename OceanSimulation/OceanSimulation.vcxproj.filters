@@ -16,6 +16,15 @@
     <Filter Include="Shader">
       <UniqueIdentifier>{d669745d-90aa-444b-87e6-e55316497197}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shader\House">
+      <UniqueIdentifier>{514812b8-abd3-48fa-88af-d67f4ec72973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Utility">
+      <UniqueIdentifier>{40df9adc-b364-4a64-85d8-c272e83f4f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Simple">
+      <UniqueIdentifier>{102aaf33-1315-409f-ab01-75a9e0592b5f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,6 +36,9 @@
     <ClCompile Include="Controls.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LoadShader.h">
@@ -35,13 +47,25 @@
     <ClInclude Include="Controls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RenderObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="scene_v_shader.glsl">
-      <Filter>Shader</Filter>
+    <None Include="g_normals_visualize.glsl">
+      <Filter>Shader\Utility</Filter>
     </None>
-    <None Include="scene_f_shader.glsl">
-      <Filter>Shader</Filter>
+    <None Include="f_input_color.glsl">
+      <Filter>Shader\Simple</Filter>
+    </None>
+    <None Include="g_house.glsl">
+      <Filter>Shader\House</Filter>
+    </None>
+    <None Include="v_simple.glsl">
+      <Filter>Shader\Simple</Filter>
+    </None>
+    <None Include="v_normals_visualize.glsl">
+      <Filter>Shader\Utility</Filter>
     </None>
   </ItemGroup>
 </Project>
